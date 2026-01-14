@@ -36,6 +36,12 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
+		<!-- CORS -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<!-- JPA (ORM support using Hibernate) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
