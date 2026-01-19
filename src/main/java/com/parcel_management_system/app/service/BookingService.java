@@ -146,8 +146,7 @@ public class BookingService {
                                                 + booking.getReceiverDetails().getCountry(),
                                 booking.getParcel().getTotalCost(),
                                 booking.getBookingStatus(),
-                                booking.getIsPaid()
-                        ));
+                                booking.getIsPaid()));
         }
 
         public Page<BookingHistoryCustomerResponseDto> getBookingHistoryForCustomer(
